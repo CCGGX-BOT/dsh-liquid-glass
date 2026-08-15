@@ -1,0 +1,37 @@
+{
+  "name": "dsh-liquid-glass",
+  "version": "1.0.0",
+  "description": "Liquid-glass (glassmorphism) theme for the DSH web UI with custom background image support. / DSH 网页端液态玻璃主题插件，支持自定义背景图片。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "theme",
+    "liquid-glass",
+    "glassmorphism",
+    "wallpaper",
+    "background"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CCGGX-BOT/dsh-liquid-glass.git"
+  }
+}
